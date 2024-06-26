@@ -1,0 +1,192 @@
+body {
+  position: relative;
+  color: white;
+  width: auto;
+  height: 100%;
+  background: #757a7a;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select-dropdown-user {
+  padding-top: 40px;
+  margin-top: 40px;
+}
+.chart-box {
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 5px;
+}
+#recipe-select-label {
+  color: white;
+}
+#recipe-select {
+  color: rgba(233, 102, 14, 0.884);
+}
+#nameDiv {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.editIcon {
+  color: #000;
+}
+.attachIcon {
+  font-size: small;
+  padding-right: 10px;
+}
+#importDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+#formName {
+  color: white;
+}
+
+#quantityLabel {
+  color: black;
+  font-size: 12px;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#rangeLabel {
+  color: black;
+  font-size: 12px;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#inputRangeField {
+  height: 25px;
+  width: auto;
+  color: rgba(233, 102, 14, 0.884);
+}
+
+#dropdownQuantity {
+  width: 30px;
+  height: 10px;
+  margin-bottom: 2px;
+  padding-right: 30px;
+  color: rgba(233, 102, 14, 0.884);
+}
+
+#saveButton {
+  height: 55px;
+  width: 30px;
+  margin-left: 20px;
+  border-color: #000;
+}
+
+#saveButton:hover {
+  background-color: white;
+}
+
+button {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  appearance: none;
+  font-size: 1.3rem;
+  box-shadow:
+    0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.save-button-container {
+  display: inline-block;
+  padding-right: 20px;
+  height: 55px;
+  width: 50px;
+  margin-right: 20px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.save-button-container:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+button i.fa-check {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.Hello {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.error-message {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+}
+.tabs-dropdowns {
+  display: flex;
+  height: 300px;
+}
+#importBtn {
+  background-color: black;
+  font-weight: 500;
+  color: rgba(233, 102, 14, 0.884);
+}
+
+#importBtn:hover {
+  background-color: white;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #333;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #ddd;
+    color: black;
+  }
+}
